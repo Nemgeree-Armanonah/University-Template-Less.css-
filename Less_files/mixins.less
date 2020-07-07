@@ -1,0 +1,199 @@
+/*=======VARIABBLES========*/
+@bg-color: darkblue;
+@fg-color: white;
+@fontFamily:  Arial,Helvetica, sans-serif;
+
+/*==========Default Mixin=====*/
+.default-mixin {
+    padding: 0px;
+    margin: 0px;
+} 
+/*=========header-mixin====*/
+.header-mixin {
+    height: 60px;
+    width: 1200px;
+    margin: 0px auto;
+    border-radius: 5px;
+    background-color: @bg-color;
+    color: @fg-color;
+    font-family: @fontFamily;
+    margin-bottom:0px;
+}
+
+/*==========nav-mixin======*/
+.nav-mixin {
+    float: left;
+    margin-left: 20px;
+    list-style-type: none;
+}
+/*======== link-mixin========*/
+.link-mixin {
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-left: 30px;;
+    color: @fg-color;
+    text-decoration: none;
+    padding:10px;
+    border-radius: 5px;
+}
+/*======= link hover mixin====*/
+.link-hover-mixin {
+    background-color: white;
+    color: @bg-color;
+} 
+
+/*======== LOGO mixin=========*/
+.logo-mixin {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 30px;;
+    color: @fg-color;
+    text-decoration: none;
+}
+/*======== slider-mixin=======*/
+.slider-mixin{
+    display: table;
+    height: 500px;
+    margin:0px auto;
+    text-align: center;
+    width: 1200px;
+} 
+/*======Mision and vision mixin*/
+.mision-vision-mixin {
+    background-color:rgb(234, 228, 241);
+    padding: 30px;
+    box-sizing: border-box;
+    h3 {
+        text-align: center;
+        font-size: 1.5rem;
+        -webkit-text-stroke-width: 1px;
+    }
+    .our-mission {
+        display: inline-block;
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        border-radius: 250px;
+    }
+} 
+/*=======Service Mixin ==========*/
+.service-mixin {
+    padding: 30px;
+    box-sizing: border-box;
+    h3{
+        text-align: center;
+        font-size: 1.5rem;
+        -webkit-text-stroke-width: 1px;
+        
+    }
+    .service {
+        margin-top: 20px;
+        width: 400px;
+        border: 1px solid darkgrey;
+        float: left;
+        margin-left:5px;;
+        border-radius: 10px;
+        box-shadow: 1px -1px 2px lightgrey;
+        background-color:rgb(234, 228, 241);
+
+      h4 {
+          text-align: center;
+          font-size: 1.2rem;
+          -webkit-text-stroke-width: 1px;
+      }
+      img {
+          display: inline-block;
+          width: 400px;
+          height: 200px;;
+      }
+
+
+      .service-content {
+          text-align: center;
+      }
+      p {
+          text-align: left;
+          padding: 5px;
+          box-sizing: border-box;
+      }
+      button {
+          width: 100px;
+          height: 40px;
+          text-align: center;
+          background-color: darkslateblue;
+          color: white;
+          border-radius: 3px;
+          border: 1px solid darkslateblue;
+         &:hover {
+             background-color:rgb(234, 228, 241);
+             color:darkslateblue;
+         } 
+      }
+
+    }
+} 
+// Ways to reach us 
+.contact-us-mixin {
+    padding: 10px;
+    box-sizing: border-box;
+   
+    h4 {
+        text-align: center;
+        font-size: 1.3rem;
+        color: @fg-color;
+        -webkit-text-stroke-width: 1px;
+    }
+}
+// soical media-mixin 
+.social-media-mixin {
+    color: @fg-color;
+    padding: 50px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     h4 {
+         color: darkslateblue;
+         -webkit-text-stroke-width: 1px;
+     }
+    ul {
+        display:inline-block;
+        text-align: center;
+        margin: 0px auto;
+    }
+    ul li {
+        float: left;
+        margin-left: 15px;
+        list-style-type: none;
+    }
+    ul li a img {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+    }
+
+}
+// footer mixin 
+.footer-mixin {
+    background-color: @bg-color;
+    padding: 50px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    ul {
+        display:inline-block;
+        text-align: center;
+        margin: 0px auto;
+    }
+    ul li {
+        float: left;
+        margin-left: 15px;
+        list-style-type: none;
+    }
+    ul li a {
+        text-decoration: none;
+        color: lighten(@fg-color,40%);
+        &:hover {
+            text-decoration: underline;
+        }
+
+    }
+}

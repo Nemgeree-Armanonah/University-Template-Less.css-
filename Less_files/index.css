@@ -1,0 +1,364 @@
+/*=======VARIABBLES========*/
+/*==========Default Mixin=====*/
+.default-mixin {
+  padding: 0px;
+  margin: 0px;
+}
+/*=========header-mixin====*/
+.header-mixin {
+  height: 60px;
+  width: 1200px;
+  margin: 0px auto;
+  border-radius: 5px;
+  background-color: darkblue;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0px;
+}
+/*==========nav-mixin======*/
+.nav-mixin {
+  float: left;
+  margin-left: 20px;
+  list-style-type: none;
+}
+/*======== link-mixin========*/
+.link-mixin {
+  display: inline-block;
+  margin-bottom: 2px;
+  margin-left: 30px;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+/*======= link hover mixin====*/
+.link-hover-mixin {
+  background-color: white;
+  color: darkblue;
+}
+/*======== LOGO mixin=========*/
+.logo-mixin {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 30px;
+  color: white;
+  text-decoration: none;
+}
+/*======== slider-mixin=======*/
+.slider-mixin {
+  display: table;
+  height: 500px;
+  margin: 0px auto;
+  text-align: center;
+  width: 1200px;
+}
+/*======Mision and vision mixin*/
+.mision-vision-mixin {
+  background-color: #eae4f1;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.mision-vision-mixin h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  -webkit-text-stroke-width: 1px;
+}
+.mision-vision-mixin .our-mission {
+  display: inline-block;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 250px;
+}
+/*=======Service Mixin ==========*/
+.service-mixin {
+  padding: 30px;
+  box-sizing: border-box;
+}
+.service-mixin h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  -webkit-text-stroke-width: 1px;
+}
+.service-mixin .service {
+  margin-top: 20px;
+  width: 400px;
+  border: 1px solid darkgrey;
+  float: left;
+  margin-left: 5px;
+  border-radius: 10px;
+  box-shadow: 1px -1px 2px lightgrey;
+  background-color: #eae4f1;
+}
+.service-mixin .service h4 {
+  text-align: center;
+  font-size: 1.2rem;
+  -webkit-text-stroke-width: 1px;
+}
+.service-mixin .service img {
+  display: inline-block;
+  width: 400px;
+  height: 200px;
+}
+.service-mixin .service .service-content {
+  text-align: center;
+}
+.service-mixin .service p {
+  text-align: left;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.service-mixin .service button {
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  background-color: darkslateblue;
+  color: white;
+  border-radius: 3px;
+  border: 1px solid darkslateblue;
+}
+.service-mixin .service button:hover {
+  background-color: #eae4f1;
+  color: darkslateblue;
+}
+.contact-us-mixin {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.contact-us-mixin h4 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+}
+.social-media-mixin {
+  color: white;
+  padding: 50px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.social-media-mixin h4 {
+  color: darkslateblue;
+  -webkit-text-stroke-width: 1px;
+}
+.social-media-mixin ul {
+  display: inline-block;
+  text-align: center;
+  margin: 0px auto;
+}
+.social-media-mixin ul li {
+  float: left;
+  margin-left: 15px;
+  list-style-type: none;
+}
+.social-media-mixin ul li a img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+.footer-mixin {
+  background-color: darkblue;
+  padding: 50px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer-mixin ul {
+  display: inline-block;
+  text-align: center;
+  margin: 0px auto;
+}
+.footer-mixin ul li {
+  float: left;
+  margin-left: 15px;
+  list-style-type: none;
+}
+.footer-mixin ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer-mixin ul li a:hover {
+  text-decoration: underline;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+}
+header {
+  height: 60px;
+  width: 1200px;
+  margin: 0px auto;
+  border-radius: 5px;
+  background-color: darkblue;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0px;
+}
+header ul {
+  float: right;
+  margin-right: 100px;
+}
+header ul li {
+  float: left;
+  margin-left: 20px;
+  list-style-type: none;
+  color: white;
+}
+header ul li a {
+  display: inline-block;
+  margin-bottom: 2px;
+  margin-left: 30px;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+header ul li a:hover {
+  background-color: white;
+  color: darkblue;
+}
+header #logo {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 30px;
+  color: white;
+  text-decoration: none;
+}
+.slider-image img {
+  display: table;
+  height: 500px;
+  margin: 0px auto;
+  text-align: center;
+  width: 1200px;
+}
+.our-mission {
+  background-color: #eae4f1;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.our-mission h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  -webkit-text-stroke-width: 1px;
+}
+.our-mission .our-mission {
+  display: inline-block;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 250px;
+}
+.our-vision {
+  background-color: #eae4f1;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.our-vision h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  -webkit-text-stroke-width: 1px;
+}
+.our-vision .our-mission {
+  display: inline-block;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 250px;
+}
+.services {
+  padding: 30px;
+  box-sizing: border-box;
+}
+.services h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  -webkit-text-stroke-width: 1px;
+}
+.services .service {
+  margin-top: 20px;
+  width: 400px;
+  border: 1px solid darkgrey;
+  float: left;
+  margin-left: 5px;
+  border-radius: 10px;
+  box-shadow: 1px -1px 2px lightgrey;
+  background-color: #eae4f1;
+}
+.services .service h4 {
+  text-align: center;
+  font-size: 1.2rem;
+  -webkit-text-stroke-width: 1px;
+}
+.services .service img {
+  display: inline-block;
+  width: 400px;
+  height: 200px;
+}
+.services .service .service-content {
+  text-align: center;
+}
+.services .service p {
+  text-align: left;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.services .service button {
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  background-color: darkslateblue;
+  color: white;
+  border-radius: 3px;
+  border: 1px solid darkslateblue;
+}
+.services .service button:hover {
+  background-color: #eae4f1;
+  color: darkslateblue;
+}
+.contact-us {
+  color: white;
+  padding: 50px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-us h4 {
+  color: darkslateblue;
+  -webkit-text-stroke-width: 1px;
+}
+.contact-us ul {
+  display: inline-block;
+  text-align: center;
+  margin: 0px auto;
+}
+.contact-us ul li {
+  float: left;
+  margin-left: 15px;
+  list-style-type: none;
+}
+.contact-us ul li a img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+footer {
+  background-color: darkblue;
+  padding: 50px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer ul {
+  display: inline-block;
+  text-align: center;
+  margin: 0px auto;
+}
+footer ul li {
+  float: left;
+  margin-left: 15px;
+  list-style-type: none;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+footer ul li a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,54 @@
+// import mxins
+@import './mixins.less';
+// body style 
+body {
+    .default-mixin();
+}
+// header 
+header {
+    .header-mixin();
+}
+header ul {
+    float: right;
+    margin-right: 100px;
+}
+// navbar 
+header ul li {
+    .nav-mixin();
+    color: @fg-color;
+}
+// links 
+header ul li a {
+    .link-mixin();
+}
+// hover effect 
+header ul li a:hover {
+    .link-hover-mixin();
+}
+// logo 
+header #logo {
+   .logo-mixin();
+}
+// slider image 
+.slider-image  img{
+    .slider-mixin();
+}
+// mision vision 
+.our-mission {
+    .mision-vision-mixin();
+}
+.our-vision {
+    .mision-vision-mixin();
+}
+// services 
+.services {
+    .service-mixin();
+
+}
+// ways to reach us 
+.contact-us {
+    .social-media-mixin();
+}
+footer {
+    .footer-mixin();
+}
